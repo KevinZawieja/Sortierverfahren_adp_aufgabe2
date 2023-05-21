@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=RunInfo
+comment0.text=\r\n\ Speichert\ Informationen\ zu\ einem\ Lauf\ mit\ <code>getNumElements</code>\r\n\ Elementen\ der\ jeweiligen\ <code>Sorter</code>.\r\n\ Die\ <code>SortingMetrics</code>\ k\u00F6nnen\ f\u00FCr\ die\ einzelnen\ Sorter\r\n\ zu\ den\ unterschiedlichen\ Listenarten\ (random,\ ordered,\ reversed)\r\n\ abgerufen\ werden.\r\n\r\n\ @author\ Lars\ Hamann\r\n\ @version\ 2023\r\n
+comment1.params=sorter\ numElements
+comment1.target=RunInfo(java.util.List,\ int)
+comment2.params=
+comment2.target=int\ getNumElements()
+comment3.params=sorter
+comment3.target=SortingMetrics\ getRandomMetricsFor(sorting.sorter.Sorter)
+comment4.params=sorter
+comment4.target=SortingMetrics\ getOrderedMetricsFor(sorting.sorter.Sorter)
+comment5.params=sorter
+comment5.target=SortingMetrics\ getReverseOrderedMetricsFor(sorting.sorter.Sorter)
+numComments=6

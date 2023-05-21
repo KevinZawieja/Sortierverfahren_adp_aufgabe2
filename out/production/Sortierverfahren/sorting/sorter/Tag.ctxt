@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Tag
+comment0.text=\r\n\ Diese\ Klasse\ modelliert\ einen\ Tag\ in\ einem\ unbestimmten\ Jahr,\ d.h.\ ohne\r\n\ Angabe\ des\ Jahres\ selbst\ (z.B.\ den\ 1.\ April\ oder\ den\ 29.\ Februar).\r\n\ \r\n\ @author\ Axel\ Schmolitzky\r\n\ @version\ 2023\r\n
+comment1.params=tagNummer
+comment1.target=Tag(int)
+comment1.text=\r\n\ Erstellt\ ein\ neues\ Tag-Objekt.\r\n\ \r\n\ @param\ tagNummer\ der\ Tag\ des\ Jahres\ im\ Intervall\ [0,365].\r\n\ 0\ steht\ dabei\ fuer\ den\ 1.\ Januar,\ 365\ fuer\ den\ 31.\ Dezember.\r\n
+comment2.params=
+comment2.target=int\ nummer()
+comment2.text=\r\n\ Liefert\ die\ Nummer\ eines\ Tages\ im\ Jahr.\ Der\ 1.\ Januar\ liefert\ 0,\r\n\ der\ 31.\ Dezember\ 365.\r\n
+comment3.params=object
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Zwei\ Exemplare\ dieser\ Klasse,\ die\ denselben\ Tag\ im\ Jahr\ repraesentieren,\r\n\ werden\ als\ gleich\ angesehen.\r\n
+comment4.params=
+comment4.target=int\ hashCode()
+comment4.text=\r\n\ @see\ Object.hashCode()\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ @see\ Object.toString()\r\n
+comment6.params=other
+comment6.target=int\ compareTo(Tag)
+comment7.params=
+comment7.target=Tag\ gibZufaelligenTag()
+comment7.text=\r\n\ @return\ ein\ zufaelliger\ Tag\ im\ Jahr\r\n
+numComments=8

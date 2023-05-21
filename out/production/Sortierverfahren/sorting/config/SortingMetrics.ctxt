@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SortingMetrics
+comment0.text=\r\n\ @author\ Lars\ Hamann\r\n\ @version\ 2023\r\n
+comment1.params=listType
+comment1.target=SortingMetrics(SortingMetrics.ListType)
+comment2.params=
+comment2.target=SortingMetrics.ListType\ getListType()
+comment3.params=
+comment3.target=int\ getNumCompares()
+comment4.params=
+comment4.target=int\ getNumMoves()
+comment5.params=
+comment5.target=void\ incrementCompares()
+comment6.params=
+comment6.target=void\ incrementMoves()
+numComments=7

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=WorkbenchProgressListener
+comment0.text=\r\n\ @author\ Lars\ Hamann\r\n\ @version\ 2023\r\n
+comment1.params=event
+comment1.target=void\ reportProgress(ProgressEvent)
+numComments=2

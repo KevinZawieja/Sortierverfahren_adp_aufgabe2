@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ProgressEvent
+comment0.text=\r\n\ Event\ mit\ Informationen\ \u00FCber\ einen\ einzelnen\r\n\ Durchlauf\ der\ Workbench\ mit\ einer\ Anzahl\ von\ Elementen\r\n\ mit\ allen\ Sortern.\r\n\ \r\n\ @author\ Lars\ Hamann\r\n\ @version\ 2023\r\n
+comment1.params=runConfig\ message
+comment1.target=ProgressEvent(sorting.config.RunInfo,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getMessage()
+comment3.params=
+comment3.target=sorting.config.RunInfo\ getRunConfig()
+numComments=4

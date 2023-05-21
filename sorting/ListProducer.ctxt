@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ListProducer
+comment0.text=\r\n\ Eine\ Klasse\ zum\ Produzieren\ von\ Integer-Listen.\r\n\ \r\n\ @author\ Lars\ Hamann,\ Axel\ Schmolitzky\r\n
+comment1.params=
+comment1.target=long\ getSeed()
+comment2.params=seed
+comment2.target=void\ setSeed(long)
+comment3.params=numElements
+comment3.target=java.util.List\ createRandomIntegerList(int)
+comment4.params=numElements
+comment4.target=java.util.List\ createOrderedIntegerList(int)
+comment5.params=numElements
+comment5.target=java.util.List\ createReverseOrderedIntegerList(int)
+numComments=6

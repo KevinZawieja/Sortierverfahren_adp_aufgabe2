@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ListValidator
+comment1.params=
+comment1.target=ListValidator()
+comment2.params=toCheck
+comment2.target=boolean\ validateOrder(java.util.List)
+comment2.text=\r\n\ \u00DCberpr\u00FCft,\ ob\ eine\ Liste\ aufsteigend\ sortiert\ ist.\r\n\r\n\ @param\ toCheck\ Eine\ <code>Liste</code>\ mit\ Elementen\ die\ das\ Interface\ <code>Comparable</code>\ implementieren.\r\n\ @param\ <E>\ Typ\ der\ Listenelemente.\ Muss\ <code>Comparable</code>\ implementieren.\r\n\ @return\ <code>true</code>,\ falls\ die\ Liste\ aufsteigend\ sortiert\ ist.\ Sonst\ <code>false</code>.\r\n
+numComments=3

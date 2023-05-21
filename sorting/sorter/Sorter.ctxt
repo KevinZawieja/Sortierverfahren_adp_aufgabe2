@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Sorter
+comment0.text=\r\n\ An\ interface\ for\ sorting\ algorithms\ that\ sort\ InPlaceSortableLists.\r\n\ \ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ 2023\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=list
+comment2.target=void\ sort(InPlaceSortableList)
+numComments=3

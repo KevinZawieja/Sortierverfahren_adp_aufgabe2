@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ListAdapter
+comment0.text=\r\n\ An\ Adapter\ that\ adapts\ an\ arbitrary\ ArrayList\ to\ the\ interface\r\n\ InPlaceSortableList.\ It\ also\ counts\ the\ calls\ to\ the\ major\ operations\:\r\n\ set\ and\ swap\ as\ move\ operations,\ get\ and\ compare\ as\ comparison\ operations.\r\n\ \r\n\ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ 2023\r\n
+comment1.params=list\ metrics
+comment1.target=ListAdapter(java.util.ArrayList,\ config.SortingMetrics)
+comment2.params=
+comment2.target=int\ size()
+comment3.params=position
+comment3.target=boolean\ exists(int)
+comment3.text=\r\n\ Checks\ whether\ the\ given\ position\ is\ a\ valid\ position\r\n\ in\ this\ list.\r\n\ \r\n\ @param\ position\ the\ position\ under\ test\r\n\ @return\ true\ if\ (position\ >\=\ 0)\ &&\ (position\ <\ gibLaenge())\r\n
+comment4.params=position
+comment4.target=java.lang.Comparable\ get(int)
+comment5.params=position\ elem
+comment5.target=void\ set(int,\ java.lang.Comparable)
+comment6.params=i\ k
+comment6.target=void\ swap(int,\ int)
+comment6.text=\r\n\ Swap\ the\ two\ elements\ at\ the\ given\ positions\ in\ this\ list.\r\n\ \r\n\ @param\ i\ position\ of\ first\ element\r\n\ @param\ k\ Position\ of\ second\ element\r\n\ @throws\ IndexOutOfBoundsException\ if\ \!(exists(i)\ &&\ exists(k))\r\n
+comment7.params=i\ k
+comment7.target=int\ compare(int,\ int)
+comment7.text=\r\n\ Return\ the\ result\ of\ the\ comparison\ of\ the\ two\ elements\r\n\ at\ the\ given\ positions\ in\ this\ list.\r\n\ \r\n\ @param\ i\ position\ of\ first\ element\r\n\ @param\ k\ Position\ of\ second\ element\r\n\ @throws\ IndexOutOfBoundsException\ if\ \!(exists(i)\ &&\ exists(k))\r\n
+comment8.params=
+comment8.target=java.util.List\ getList()
+numComments=9

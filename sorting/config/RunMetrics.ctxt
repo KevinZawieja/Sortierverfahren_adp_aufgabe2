@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=RunMetrics
+comment0.text=\r\n\ @author\ Lars\ Hamann\r\n\ @version\ 2023\r\n
+comment1.params=sorter
+comment1.target=RunMetrics(sorting.sorter.Sorter)
+comment2.params=
+comment2.target=sorting.sorter.Sorter\ getSorter()
+comment3.params=
+comment3.target=SortingMetrics\ getRandomMetrics()
+comment4.params=
+comment4.target=SortingMetrics\ getOrderedMetrics()
+comment5.params=
+comment5.target=SortingMetrics\ getReverseOrderedMetrics()
+numComments=6

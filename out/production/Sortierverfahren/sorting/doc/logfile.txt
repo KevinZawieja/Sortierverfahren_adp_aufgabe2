@@ -1,0 +1,53 @@
+Class documentation
+<---- javadoc command: ---->
+C:\BlueJ\bluej510\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+17
+-classpath
+C:\BlueJ\bluej510\lib\bluejcore.jar;C:\BlueJ\bluej510\lib\junit-jupiter-5.5.2.jar;C:\BlueJ\bluej510\lib\junit-jupiter-api-5.5.2.jar;C:\BlueJ\bluej510\lib\junit-jupiter-engine-5.5.2.jar;C:\BlueJ\bluej510\lib\junit-jupiter-migrationsupport-5.5.2.jar;C:\BlueJ\bluej510\lib\junit-jupiter-params-5.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-commons-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-console-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-console-standalone-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-engine-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-launcher-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-reporting-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-runner-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-suite-api-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-platform-testkit-1.5.2.jar;C:\BlueJ\bluej510\lib\junit-quickcheck-core-0.9.jar;C:\BlueJ\bluej510\lib\junit-vintage-engine-5.5.2.jar;C:\BlueJ\bluej510\lib\hamcrest-core-1.3.jar;C:\BlueJ\bluej510\lib\hamcrest-library-1.3.jar;C:\BlueJ\bluej510\lib\lang-stride.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.base.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.controls.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.fxml.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.graphics.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.media.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.properties.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.swing.jar;C:\BlueJ\bluej510\lib\javafx\lib\javafx.web.jar;D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren
+-d
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java
+<---- end of javadoc command ---->
+Loading source file D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java...
+Constructing Javadoc information...
+Standard Doclet version 17.0.4+8
+Building tree for all the packages and classes...
+Generating D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\doc\sorter\InPlaceSortableList.html...
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:27: warning: invalid input: '&'
+     * @return true if (position >= 0) && (position < gibLaenge())
+                                       ^
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:27: warning: invalid input: '&'
+     * @return true if (position >= 0) && (position < gibLaenge())
+                                        ^
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:27: warning: invalid input: '<'
+     * @return true if (position >= 0) && (position < gibLaenge())
+                                                    ^
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:45: warning: invalid input: '&'
+     * @throws IndexOutOfBoundsException if !(exists(i) && exists(k))
+                                                        ^
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:45: warning: invalid input: '&'
+     * @throws IndexOutOfBoundsException if !(exists(i) && exists(k))
+                                                         ^
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:55: warning: invalid input: '&'
+     * @throws IndexOutOfBoundsException if !(exists(i) && exists(k))
+                                                        ^
+D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\sorter\InPlaceSortableList.java:55: warning: invalid input: '&'
+     * @throws IndexOutOfBoundsException if !(exists(i) && exists(k))
+                                                         ^
+Generating D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\doc\sorter\package-summary.html...
+Generating D:\axel\Dropbox\0Work\HAW\Lehre\SoSe23-AD-AI\Praktikum\Aufgabenblatt2\Sortierverfahren\doc\index.html...
+7 warnings

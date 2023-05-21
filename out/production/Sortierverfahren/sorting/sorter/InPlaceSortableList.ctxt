@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=InPlaceSortableList
+comment0.text=\r\n\ An\ interface\ for\ generic\ lists\ of\ elements\ with\ a\ natural\ ordering.\r\n\ This\ interface\ allows\ clients\ to\ sort\ 'in\ place'\ by\ using\ just\ the\r\n\ two\ basic\ operations\ compare\ and\ swap.\r\n\ It\ offers\ further\ operations\ for\ other\ sorting\ approaches.\r\n\ \r\n\ @author\ Axel\ Schmolitzky\r\n\ @version\ 2023\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ The\ size\ of\ this\ list.\r\n\ \r\n\ @return\ the\ number\ of\ elements\ in\ this\ list.\r\n\ @ensure\ result\ >\=\ 0\r\n
+comment2.params=position
+comment2.target=boolean\ exists(int)
+comment2.text=\r\n\ Checks\ whether\ the\ given\ position\ is\ a\ valid\ position\r\n\ in\ this\ list.\r\n\ \r\n\ @param\ position\ the\ position\ under\ test\r\n\ @return\ true\ if\ (position\ >\=\ 0)\ &&\ (position\ <\ gibLaenge())\r\n
+comment3.params=position
+comment3.target=java.lang.Comparable\ get(int)
+comment3.text=\r\n\ Get\ the\ element\ at\ the\ given\ position.\r\n\ @param\ position\ a\ valid\ position\ in\ this\ list.\r\n\ @require\ exists(position)\r\n\ @return\ the\ element\ at\ the\ given\ position\r\n\ @ensure\ result\ \!\=\ null\r\n
+comment4.params=position\ elem
+comment4.target=void\ set(int,\ java.lang.Comparable)
+comment4.text=\r\n\ Set\ the\ given\ element\ at\ the\ given\ position\ in\ this\ list.\r\n\ The\ size\ of\ the\ list\ will\ not\ change.\r\n\ @param\ position\ a\ valid\ position\ in\ this\ list.\r\n\ @param\ elem\ an\ element.\r\n\ @require\ exists(position)\r\n\ @require\ elem\ \!\=\ null\r\n\ @ensure\ size()\ \=\=\ old\ size()\r\n
+comment5.params=i\ k
+comment5.target=void\ swap(int,\ int)
+comment5.text=\r\n\ Swap\ the\ two\ elements\ at\ the\ given\ positions\ in\ this\ list.\r\n\ \r\n\ @param\ i\ position\ of\ first\ element\r\n\ @param\ k\ Position\ of\ second\ element\r\n\ @throws\ IndexOutOfBoundsException\ if\ \!(exists(i)\ &&\ exists(k))\r\n
+comment6.params=i\ k
+comment6.target=int\ compare(int,\ int)
+comment6.text=\r\n\ Return\ the\ result\ of\ the\ comparison\ of\ the\ two\ elements\r\n\ at\ the\ given\ positions\ in\ this\ list.\r\n\ \r\n\ @param\ i\ position\ of\ first\ element\r\n\ @param\ k\ Position\ of\ second\ element\r\n\ @throws\ IndexOutOfBoundsException\ if\ \!(exists(i)\ &&\ exists(k))\r\n
+numComments=7
