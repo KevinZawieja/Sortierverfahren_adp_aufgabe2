@@ -12,19 +12,14 @@ public class BubbleSorter implements Sorter {
 
         @Override
         public <E extends Comparable<E>> void sort(InPlaceSortableList<E> list) {
-                int n = list.size();
-                boolean swapped;
-                for (int i = 0; i < n - 1; i++) {
-                        swapped = false;
-                        for (int j = 0; j < n - i - 1; j++) {
+                int size = list.size();
+                for (int i = 0; i < size - 1; i++) {
+                        for (int j = 0; j < size - i - 1; j++) {
                                 if (list.compare(j, j + 1) > 0) {
                                         list.swap(j, j + 1);
-                                        swapped = true;
                                 }
                         }
-                        if (!swapped) {
-                                break;
-                        }
+
                 }
         }
 }

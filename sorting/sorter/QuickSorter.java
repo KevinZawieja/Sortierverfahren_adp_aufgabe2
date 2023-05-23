@@ -28,7 +28,7 @@ public class QuickSorter implements Sorter {
         while (low < high) {
             int pivotIndex = partition(list, low, high);
 
-            // Recursively sort the smaller subarray
+            // rekursives sortieren von kleineren Teillisten
             if (pivotIndex - low < high - pivotIndex) {
                 quickSort(list, low, pivotIndex - 1);
                 low = pivotIndex + 1;

@@ -14,11 +14,11 @@ public class SelectionSorter implements Sorter {
 
     @Override
     public <E extends Comparable<E>> void sort(InPlaceSortableList<E> list) {
-        int n = list.size();
-        for (int i = 0; i < n - 1; i++) {
+        int size = list.size();
+        for (int i = 0; i < size - 1; i++) {
             int minIndex = i;
             // Suche das Minimum im unsortierten Teil der Liste
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i + 1; j < size; j++) {
                 if (list.compare(j, minIndex) < 0) {
                     minIndex = j;
                 }

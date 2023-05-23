@@ -130,7 +130,7 @@ public class SortingWorkbench {
     }
 
     public static void visual_prep(){
-        VisualTagList tagList = new VisualTagList(200);
+        VisualTagList tagList = new VisualTagList(30);
         //VisualTagList tagList2 = new VisualTagList(200);
         Sorter sorter_Selection = new SelectionSorter();
         Sorter sorter_Insertion = new InsertionSorter();
@@ -141,7 +141,7 @@ public class SortingWorkbench {
         Sorter sorter_quickInsertionMiddle = new QuickInsertionSorter(QuickInsertionSorter.MedianStrategy.MIDDLE, 20);
         Sorter sorter_quickInsertionMiddle2 = new QuickInsertionSorter(QuickInsertionSorter.MedianStrategy.MIDDLE, 5);
         Sorter sorter_merge = new MergeSorter();
-        visual_ausfuehrung(tagList,sorter_quickInsertionMiddle);
+        visual_ausfuehrung(tagList,sorter_Bubble);
         //visual_ausfuehrung(tagList2,sorter_quickMiddle);
     }
 
@@ -151,7 +151,7 @@ public class SortingWorkbench {
      * @param args Startargumente. Bisher nicht verwendet.
      */
     public static void main(String[] args) {
-       // visual_prep();
+        visual_prep();
 
         List<Sorter> sorter = new ArrayList<>();
         sorter.add(new SelectionSorter());
